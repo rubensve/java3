@@ -1,12 +1,18 @@
 package com.ruben.webas;
 
 public class ContadorVisitas {
+private static int contador;
 
-public void contador(){
-for(int a=0; a<100 ; a++)
-    {
-        System.out.println(a);   
+    public static int getContador() {
+        return contador;
     }
-}
+
+    public void setContador(int contador) {
+        this.contador = contador;
+    }
+
+
+    
+    
 }
 
