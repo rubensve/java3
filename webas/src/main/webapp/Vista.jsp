@@ -6,11 +6,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        Peticiones!!
-        <form action="Rubensin" method="post">
-            <p> Nombre </p>
-            <input type="text" name="nombre" />
-            <input type="submit" value="Crear cuenta">    
-        </form>
+        <h1>Su peticion esta lista :)</h1>
     </body>
 </html>
