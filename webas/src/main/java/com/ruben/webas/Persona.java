@@ -1,13 +1,13 @@
 package com.ruben.webas;
 
 public class Persona {
-  Perro perro;  
+  Mascota m;  
 
-    public Perro getPerro() {
-        return perro;
+    public Mascota getMascota() {
+        return m;
     }
 
-    public void setPerro(Perro perro) {
-        this.perro = perro;
+    public void setMascota(Mascota m) {
+        this.m = m;
     }
 }

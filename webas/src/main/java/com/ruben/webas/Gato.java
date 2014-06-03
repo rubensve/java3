@@ -1,5 +1,6 @@
 package com.ruben.webas;
-public class Perro extends Mascota{
+
+public class Gato {
 private String nombre;
 
 public void setNombre(String nombre){
@@ -12,7 +13,7 @@ public String getNombre(){
 
 
 public String obtenerRegistro(){
-    return "El perrito que registraste es: "+nombre;
+    return "El gato que registraste es: "+nombre;
 }
 
-}
+}    

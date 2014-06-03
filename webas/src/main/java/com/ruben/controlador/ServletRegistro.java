@@ -19,9 +19,8 @@ public class ServletRegistro extends HttpServlet {
             throws ServletException, IOException {
        Perro perro= new Perro();
        perro.setNombre("Sultan");
-       
        Persona p= new Persona();
-       p.setPerro(perro);
+       p.setMascota(perro);
        
        request.setAttribute("registro", p);
        RequestDispatcher despachador= request.getRequestDispatcher("/registro.jsp");
