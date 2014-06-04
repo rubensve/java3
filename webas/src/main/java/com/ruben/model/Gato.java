@@ -1,6 +1,6 @@
-package com.ruben.webas;
+package com.ruben.model;
 
-public class Gato {
+public class Gato implements Mascota {
 private String nombre;
 
 public void setNombre(String nombre){

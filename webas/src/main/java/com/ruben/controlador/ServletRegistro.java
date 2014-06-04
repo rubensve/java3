@@ -1,8 +1,9 @@
 
 package com.ruben.controlador;
 
-import com.ruben.webas.Perro;
-import com.ruben.webas.Persona;
+import com.ruben.model.Mascota;
+import com.ruben.model.Perro;
+import com.ruben.model.Persona;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
@@ -17,11 +18,13 @@ public class ServletRegistro extends HttpServlet {
     
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-       Perro perro= new Perro();
-       perro.setNombre("Sultan");
-       Persona p= new Persona();
-       p.setMascota(perro);
        
+       Mascota mascota= new Perro();
+        
+       Persona p= new Persona();
+       p.setMascota(mascota);
+       
+     
        request.setAttribute("registro", p);
        RequestDispatcher despachador= request.getRequestDispatcher("/registro.jsp");
        despachador.forward(request, response);

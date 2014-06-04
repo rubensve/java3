@@ -1,5 +1,5 @@
-package com.ruben.webas;
-public class Perro extends Mascota{
+package com.ruben.model;
+public class Perro implements Mascota{
 private String nombre;
 
 public void setNombre(String nombre){

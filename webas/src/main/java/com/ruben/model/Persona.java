@@ -1,4 +1,4 @@
-package com.ruben.webas;
+package com.ruben.model;
 
 public class Persona {
   Mascota m;  

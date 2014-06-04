@@ -1,5 +1,5 @@
 
-package com.ruben.webas;
+package com.ruben.model;
 
 public abstract class Cuentas {
     
